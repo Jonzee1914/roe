@@ -24,49 +24,50 @@ db.once('open', async () => {
   const products = await Product.insertMany([
     //Start of Sea Creatures
     {
-      name: 'Tin of Cookies',
+      name: 'Cadborosaurus',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+
       image: 'cookie-in.jpg',
       category: categories[0]._id,
       price: 2.99,
-      quantity: 500
+      quantity: 2
     },
     {
-      name: 'Canned Coffee',
+      name: 'Beast of Busco',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
       image: 'canned-coffee.jpg',
-      category: categories[0]._id,
+      category: categories[1]._id,
       price: 1.99,
-      quantity: 500
+      quantity: 5
     },
     {
-      name: 'Toilet Paper',
-      category: categories[0]._id,
+      name: 'Manipogo',
+      category: categories[1]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
       image: 'toilet-paper.jpg',
       price: 7.99,
-      quantity: 20
+      quantity: 1
     },
     {
-      name: 'Handmade Soap',
-      category: categories[0,1]._id,
+      name: 'Killer Oklahoma Octopus ',
+      category: categories[1]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
       image: 'soap.jpg',
       price: 3.99,
-      quantity: 50
+      quantity: 4
     },
     {
-      name: 'Set of Wooden Spoons',
-      category: categories[0,1]._id,
+      name: 'Loch Ness Monster',
+      category: categories[1]._id,
       description:
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
       image: 'wooden-spoons.jpg',
       price: 14.99,
-      quantity: 100
+      quantity: 1
     },
     
     //Start of Sky Creatures (Category 2)
