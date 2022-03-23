@@ -27,7 +27,7 @@ db.once('open', async () => {
       name: 'Cadborosaurus',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+      image: 'Caddy.jpg',
       category: categories[1]._id,
       price: 2.99,
       quantity: 2
@@ -36,7 +36,7 @@ db.once('open', async () => {
       name: 'Beast of Busco',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
+      image: 'Beastofbusco.jpg',
       category: categories[1]._id,
       price: 1.99,
       quantity: 5
@@ -46,7 +46,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
+      image: 'Manipogo.jpg',
       price: 7.99,
       quantity: 1
     },
@@ -55,7 +55,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
+      image: 'Giant-Octopus.jpg',
       price: 3.99,
       quantity: 4
     },
@@ -64,7 +64,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
+      image: 'LochNessMonster.jpg',
       price: 14.99,
       quantity: 1
     },
