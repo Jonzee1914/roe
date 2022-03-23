@@ -5,11 +5,16 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+    //0
+    { name: 'All' },
+    //1
+    { name: 'Sea Creatures' },
+    //2
+    { name: 'Sky Creatures' },
+    //3
+    { name: 'Land Creatures' },
+    //4
+    //{ name: 'Cyptids' }
   ]);
 
   console.log('categories seeded');
@@ -17,6 +22,7 @@ db.once('open', async () => {
   await Product.deleteMany();
 
   const products = await Product.insertMany([
+    //Start of Sea Creatures
     {
       name: 'Tin of Cookies',
       description:
@@ -37,7 +43,7 @@ db.once('open', async () => {
     },
     {
       name: 'Toilet Paper',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
       image: 'toilet-paper.jpg',
@@ -46,7 +52,7 @@ db.once('open', async () => {
     },
     {
       name: 'Handmade Soap',
-      category: categories[1]._id,
+      category: categories[0,1]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
       image: 'soap.jpg',
@@ -55,13 +61,15 @@ db.once('open', async () => {
     },
     {
       name: 'Set of Wooden Spoons',
-      category: categories[1]._id,
+      category: categories[0,1]._id,
       description:
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
       image: 'wooden-spoons.jpg',
       price: 14.99,
       quantity: 100
     },
+    
+    //Start of Sky Creatures
     {
       name: 'Camera',
       category: categories[2]._id,
@@ -89,9 +97,11 @@ db.once('open', async () => {
       price: 9.99,
       quantity: 100
     },
+    
+    //Start of Land Creatures
     {
       name: 'Spinning Top',
-      category: categories[4]._id,
+      category: categories[3]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'spinning-top.jpg',
       price: 1.99,
@@ -99,7 +109,7 @@ db.once('open', async () => {
     },
     {
       name: 'Set of Plastic Horses',
-      category: categories[4]._id,
+      category: categories[3]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'plastic-horses.jpg',
@@ -108,7 +118,7 @@ db.once('open', async () => {
     },
     {
       name: 'Teddy Bear',
-      category: categories[4]._id,
+      category: categories[3]._id,
       description:
         'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
       image: 'teddy-bear.jpg',
@@ -117,7 +127,7 @@ db.once('open', async () => {
     },
     {
       name: 'Alphabet Blocks',
-      category: categories[4]._id,
+      category: categories[3]._id,
       description:
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
       image: 'alphabet-blocks.jpg',
