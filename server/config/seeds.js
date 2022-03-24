@@ -26,46 +26,46 @@ db.once('open', async () => {
     {
       name: 'Cadborosaurus',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'Cadborosaurus aka Caddy is said by witnesses to resemble a serpent with vertical coils or humps in tandem behind the horse-like head and long neck, with a pair of small elevating front flippers, and either a pair of hind flippers, or a pair of large webbed hind flippers fused to form a large fan-like tail region that provides powerful forward propulsion.',
       image: 'Caddy.jpg',
       category: categories[1]._id,
-      price: 2.99,
+      price: 8999.99,
       quantity: 2
     },
     {
       name: 'Beast of Busco',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'The Beast of Busco (Or affectionately known as Oscar from the first discoverer) resides in Churubusco, Indiana , where it is supposedly a giant snapping turtle. Legend has it that the story starts in 1898, when a farmer named Oscar Fulk supposedly saw a giant turtle living in the seven-acre lake on his farm near Churubusco. He told others about it, but eventually he decided to leave it alone.',
       image: 'Beastofbusco.jpg',
       category: categories[1]._id,
-      price: 1.99,
+      price: 2999.99,
       quantity: 5
     },
     {
       name: 'Manipogo',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'Manipogo.jpg',
-      price: 7.99,
+        'In Canadian folklore, the Manipogo is a lake monster said to live in Lake Manitoba, Manitoba, Canada. The creature was dubbed Manipogo in 1960, the name echoing British Columbia Ogopogo, There is also a Lake Winnipegosis monster called Winnepogo, thought possibly to be the same creature since the lakes are connected. It is the namesake of the Manipogo Provincial Park. The monster is described as being from 4–15 metres (13–49 ft) long.[2] It is described as A long muddy-brown body with humps that show above the water, and a sheep-like head.',
+      image: 'Manipogo-copy.jpg',
+      price: 7999.99,
       quantity: 1
     },
     {
       name: 'Killer Oklahoma Octopus ',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'The Oklahoma octopus is a cryptid generally said to inhabit some freshwater, man-made lakes of Oklahoma, including Lake Thunderbird, Oologah Lake, and Lake Tenkiller, where it attacks and kills unsuspecting swimmers. According to the rumor, this freshwater Cephalopod is about the size of a horse and resembles an octopus, with long tentacles and leathery, reddish-brown skin.',
       image: 'Giant-Octopus.jpg',
-      price: 3.99,
+      price: 6999.99,
       quantity: 4
     },
     {
       name: 'Loch Ness Monster',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'LochNessMonster.jpg',
-      price: 14.99,
+        'The Loch Ness Monster affectionately known as Nessie, is a creature in Scotland  that is said to inhabit Loch Ness in the Scottish Highlands. It is often described as large, long-necked, and with one or more humps protruding from the water. Popular interest and belief in the creature has varied since it was brought to worldwide attention in 1933. Evidence of its existence is anecdotal, with a number of disputed photographs and sonar readings.The scientific community regards the Loch Ness Monster as a phenomenon without biological basis, explaining sightings as hoaxes, wishful thinking, and the misidentification of mundane objects. The pseudoscience and subculture of cryptozoology has placed particular emphasis on the creature.',
+      image: 'LochNessMonster-copy.jpg',
+      price: 74999.99,
       quantity: 1
     },
     
