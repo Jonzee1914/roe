@@ -6,9 +6,9 @@ db.once('open', async () => {
 
   const categories = await Category.insertMany([
     //0
-    { name: 'All' },
+    { name: 'Aquatic Creatures' },
     //1
-    { name: 'Sea Creatures' },
+    { name: 'Semi-Aquatic Creatures' },
     //2
     { name: 'Sky Creatures' },
     //3
@@ -22,53 +22,55 @@ db.once('open', async () => {
   await Product.deleteMany();
 
   const products = await Product.insertMany([
-    //Start of Sea Creatures
-    {
-      name: 'Cadborosaurus',
-      description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-
-      image: 'cookie-in.jpg',
-      category: categories[0]._id,
-      price: 2.99,
-      quantity: 2
-    },
-    {
-      name: 'Beast of Busco',
-      description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
-      category: categories[1]._id,
-      price: 1.99,
-      quantity: 5
-    },
+    //Starts Aquatic Creatures
     {
       name: 'Manipogo',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
+        'It is described as "A long muddy-brown body with humps that show above the water, and a sheep-like head" and is normally 13-49ft long',
+      image: 'manipogo.jpg',
+      price: 7999.99,
       quantity: 1
     },
     {
       name: 'Killer Oklahoma Octopus ',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
+        'This freshwater Cephalopod is about the size of a horse and resembles an octopus, with long tentacles and leathery, reddish-brown skin.',
+      image: 'killer-oklahoma-octopus.jpg',
+      price: 3100.99,
       quantity: 4
     },
     {
       name: 'Loch Ness Monster',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
+        'The appearance is that of a large creature with a long neck and one or more humps protruding from the water.',
+      image: 'loch-ness-monster.jpg',
+      price: 14455.99,
       quantity: 1
     },
+    
+    //Starts Semi-aquatic Creatures
+    {
+      name: 'Loveland Frog',
+      description:
+        'The appearance is that of a large half man and half frog that roughly stands about 4ft tall.',
+      image: 'loveland-frog.jpg',
+      category: categories[1]._id,
+      price: 2226.99,
+      quantity: 2
+    },
+    {
+      name: 'Dobhar-chú',
+      description:
+        'Physical description of the Dobhar-Chú resembles an otter but said to be about five times as large (perhaps 10–15 feet), with white pelt, black ear tips and a black cross on its back. Though, due to the murky waters it is said to reside in, its pelt may be portrayed as darker.',
+      image: 'dobhar-1.jpg',
+      category: categories[1]._id,
+      price: 2221.99,
+      quantity: 5
+    },
+    
     
     //Start of Sky Creatures (Category 2)
     {
@@ -76,8 +78,8 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'The appearance is that of a bipedal kangaroo-like or wyvern-like creature with a horse- or goat-like head, leathery bat-like wings, horns, small arms with clawed hands, legs with cloven hooves, and a forked tail. It has been reported to move quickly and is often described as emitting a high-pitched "blood-curdling scream',
-      image: 'camera.jpg',
-      price: 399.99,
+      image: 'jersey_devil.jpeg',
+      price: 3199.99,
       quantity: 5
     },
     {
@@ -85,8 +87,8 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'The appearance is that of a half humanoid and half bird like creature.',
-      image: 'tablet.jpg',
-      price: 199.99,
+      image: 'mothman.jpg',
+      price: 1999.99,
       quantity: 5
     },
     {
@@ -94,8 +96,8 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'The appearance is that of an enormous bird said to create thunder by flapping its wings, and lightning by flashing its eyes.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
+      image: 'Thunderbird.jpg',
+      price: 3999.99,
       quantity: 4
     },
     
@@ -104,8 +106,8 @@ db.once('open', async () => {
       name: 'Bigfoot',
       category: categories[3]._id,
       description: 'The appearance is that of a large ape like creature.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
+      image: 'bigfoot.jpg',
+      price: 110000.99,
       quantity: 2
     },
     {
@@ -113,8 +115,8 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'The appearance is that of a large dog with a row of spines reaching from the neck to the base of the tail.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
+      image: 'chupacabra.jpg',
+      price: 2229.99,
       quantity: 5
     },
     {
@@ -122,8 +124,8 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'The appearance is that of a sausage like creature about two feet long, has no head nor leg and it is so poisonous that merely to touch it means instant death.',
-      image: 'teddy-bear.jpg',
-      price: 7.99,
+      image: 'mongolian-death-worm.jpg',
+      price: 1997.99,
       quantity: 5
     },
     {
@@ -131,8 +133,8 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'The appearance is that of a large ape like creature that is covered in white hair and known for having large sharp teeth.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
+      image: 'Yeti.jpg',
+      price: 1999.99,
       quantity: 10
     }
   ]);
