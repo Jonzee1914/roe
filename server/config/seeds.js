@@ -54,23 +54,23 @@ db.once('open', async () => {
     //Starts Semi-aquatic Creatures
     {
       name: 'Loveland Frog',
+      category: categories[1]._id,
       description:
         'The appearance is that of a large half man and half frog that roughly stands about 4ft tall.',
       image: 'loveland-frog.jpg',
-      category: categories[1]._id,
-      price: 2226.99,
+      price: 23226.99,
       quantity: 2
     },
+    
     {
       name: 'Dobhar-chú',
+      category: categories[1]._id,
       description:
         'Physical description of the Dobhar-Chú resembles an otter but said to be about five times as large (perhaps 10–15 feet), with white pelt, black ear tips and a black cross on its back. Though, due to the murky waters it is said to reside in, its pelt may be portrayed as darker.',
       image: 'dobhar-1.jpg',
-      category: categories[1]._id,
-      price: 2221.99,
+      price: 21221.99,
       quantity: 5
     },
-    
     
     //Start of Sky Creatures (Category 2)
     {
@@ -116,9 +116,10 @@ db.once('open', async () => {
       description:
         'The appearance is that of a large dog with a row of spines reaching from the neck to the base of the tail.',
       image: 'chupacabra.jpg',
-      price: 2229.99,
+      price: 25229.99,
       quantity: 5
     },
+    
     {
       name: 'Mongolian Death Worm',
       category: categories[3]._id,
@@ -134,7 +135,7 @@ db.once('open', async () => {
       description:
         'The appearance is that of a large ape like creature that is covered in white hair and known for having large sharp teeth.',
       image: 'Yeti.jpg',
-      price: 1999.99,
+      price: 28222.99,
       quantity: 10
     }
   ]);
