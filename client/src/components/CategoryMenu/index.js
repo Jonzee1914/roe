@@ -41,9 +41,23 @@ function CategoryMenu() {
     });
   };
 
+  const setCategoryNull = () => {
+    dispatch({
+      type: UPDATE_CURRENT_CATEGORY,
+      currentCategory: null,
+    });
+  };
+
   return (
     <div>
       <h2>CHOOSE A CATEGORY:</h2>
+      <button
+          onClick={() => {
+            setCategoryNull();
+          }}
+        >
+        All  
+        </button>
       {categories.map((item) => (
         <button
           key={item._id}
