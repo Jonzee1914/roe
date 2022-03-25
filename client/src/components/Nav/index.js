@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import logo from '../../assets/ROE.png';
 
 function Nav() {
 
@@ -24,16 +25,16 @@ function Nav() {
     } else {
       return (
         <ul className="flex-row">
-          <li className="mx-1">
+          <ul className="mx-1">
             <Link to="/signup">
-              Signup
+              SIGNUP
             </Link>
-          </li>
-          <li className="mx-1">
+          </ul>
+          <ul className="mx-1">
             <Link to="/login">
-              Login
+              LOGIN
             </Link>
-          </li>
+          </ul>
         </ul>
       );
     }
@@ -43,8 +44,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
-          Roe
+          <img className="logo" src={logo} alt="Logo" />
         </Link>
       </h1>
 
