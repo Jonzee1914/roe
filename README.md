@@ -1,7 +1,8 @@
 # Rare Ostensibly Existing Creatures
- 
+![](https://github.com/Jonzee1914/roe/blob/main/readmelogo.jpg?raw=true)
+
 ### Description 
-This app demonstrates a MERN stack single-page application. The user will be able to browse through our creatures for sale, and they will be able to login and purchase as well.
+This app demonstrates a MERN stack single-page application. The user will be able to browse through our creatures for sale, and they will be able to login, purchase, and review their previous order history as well.
   
 ## Deployed version can be found at https://roe-creatures.herokuapp.com/
 
@@ -28,9 +29,12 @@ Then simply <br/>
 ## Video Demo
   ![](https://github.com/Jonzee1914/roe/blob/main/roe-demo.gif?raw=true)
 ## Usage 
-This app is used to demonstrate a MERN stack single-page application.
+This app is used to demonstrate an e-commerce MERN stack single-page application uses a Redux-like framework to manage global state.
 
 ## Screenshots
+![](https://github.com/Jonzee1914/roe/blob/main/RoeScreenshot1.png?raw=true)
+![](https://github.com/Jonzee1914/roe/blob/main/RoeScreenshot2.png?raw=true)
+![](https://github.com/Jonzee1914/roe/blob/main/RoeScreenshot3.png?raw=true)
 
 
 ## Credits
