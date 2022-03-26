@@ -69,7 +69,7 @@ db.once('open', async () => {
         'Physical description of the Dobhar-Chú resembles an otter but said to be about five times as large (perhaps 10–15 feet), with white pelt, black ear tips and a black cross on its back. Though, due to the murky waters it is said to reside in, its pelt may be portrayed as darker.',
       image: 'dobhar-1.jpg',
       category: categories[1]._id,
-      price: 2521.99,
+      price: 24521.99,
       quantity: 5
     },
     
