@@ -26,7 +26,7 @@ Then simply <br/>
 `npm run develop`
 
 ## Video Demo
-  
+  ![](https://github.com/Jonzee1914/roe/blob/main/roe-demo.gif?raw=true)
 ## Usage 
 This app is used to demonstrate a MERN stack single-page application.
 
