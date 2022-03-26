@@ -9,7 +9,7 @@ import { useStoreContext } from '../../utils/GlobalState';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
-const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+const stripePromise = loadStripe('pk_test_51KgcbvHLMgOHiK2LjCNGSgPpTOY1ou0w8X7B5nvIM2T3S8qihQXIGufRqrDOwNhBVMsSeps2HNMtAUXTOttWqvkx00OOkxCAp4');
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
