@@ -58,7 +58,7 @@ db.once('open', async () => {
         'The appearance is that of a large half man and half frog that roughly stands about 4ft tall.',
       image: 'loveland-frog.jpg',
       category: categories[1]._id,
-      price: 2226.99,
+      price: 4226.99,
       quantity: 2
     },
     
@@ -69,7 +69,7 @@ db.once('open', async () => {
         'Physical description of the Dobhar-Chú resembles an otter but said to be about five times as large (perhaps 10–15 feet), with white pelt, black ear tips and a black cross on its back. Though, due to the murky waters it is said to reside in, its pelt may be portrayed as darker.',
       image: 'dobhar-1.jpg',
       category: categories[1]._id,
-      price: 2221.99,
+      price: 2521.99,
       quantity: 5
     },
     
@@ -118,7 +118,7 @@ db.once('open', async () => {
       description:
         'The appearance is that of a large dog with a row of spines reaching from the neck to the base of the tail.',
       image: 'chupacabra.jpg',
-      price: 2229.99,
+      price: 2769.99,
       quantity: 5
     },
     
