@@ -34,10 +34,10 @@ This app is used to demonstrate a MERN stack single-page application.
 
 
 ## Credits
-Erik Jones - [Github Profile](https://github.com/Jonzee1914)
-Jeffrey Johnson - [Github Profile](https://github.com/frankp27)
-Anthony Lively - [Github Profile](https://github.com/Spooncodes)
-Phillip MacDonald - [Github Profile](https://github.com/pmacdonald15)
+Erik Jones - [Github Profile](https://github.com/Jonzee1914)<br/>
+Jeffrey Johnson - [Github Profile](https://github.com/frankp27)<br/>
+Anthony Lively - [Github Profile](https://github.com/Spooncodes)<br/>
+Phillip MacDonald - [Github Profile](https://github.com/pmacdonald15)<br/>
 
 
 ## Questions
