@@ -1,4 +1,4 @@
-# Rare Ostensibly Existing Creatures
+# Rare but Ostensibly Existing Creatures
 ![](https://github.com/Jonzee1914/roe/blob/main/readmelogo.jpg?raw=true)
 
 ### Description 
