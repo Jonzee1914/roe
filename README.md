@@ -10,12 +10,24 @@ This app demonstrates a MERN stack single-page application. The user will be abl
 ![](https://github.com/Jonzee1914/roe)
 
 ## Table of Contents 
+* [Technologies](#technologies)
 * [Installation](#installation)
 * [Video Demo](#video-demo)
 * [Usage](#usage)
 * [Screenshots](#screenshots)
 * [Credits](#credits)
 * [Questions](#questions)
+
+## Technologies
+-M.E.R.N.
+  -MongoDB
+  -Express
+  -React
+  -Node
+-GraphQL
+-Integrated Stripe
+-Apollo
+-Concurrently
 
 ## Installation
 
