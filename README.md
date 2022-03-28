@@ -19,15 +19,15 @@ This app demonstrates a MERN stack single-page application. The user will be abl
 * [Questions](#questions)
 
 ## Technologies
--M.E.R.N.
-  -MongoDB
-  -Express
-  -React
-  -Node
--GraphQL
--Integrated Stripe
--Apollo
--Concurrently
+-M.E.R.N.</br>
+  -MongoDB </br>
+  -Express </br>
+  -React </br>
+  -Node </br>
+-GraphQL </br>
+-Integrated Stripe </br>
+-Apollo </br>
+-Concurrently </br>
 
 ## Installation
 
